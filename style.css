@@ -54,11 +54,16 @@ section .box .nums p {
 
 section .box2 .img {
     position: relative;
+    height: 100%;
+}
+
+section .box2 .img img {
+    height: 100%;
 }
 
 section .box2 .img .cover {
     background-color: hsl(277, 64%, 61%, 50%);
-    width: 100%;
+    width: 101%;
     height: 100%;
     z-index: 2;
     position: absolute;
